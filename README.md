@@ -6,15 +6,24 @@ Anggota :
 - M Adi Wahyudi | 1900180
 - Seni Siti Inayah | 1902082
 
+MERAPIKAN KODINGAN AGAR LEBIH MUDAH DIBACA
+
+Urutannya :
+- Atribut
+- Setter Getter
+- Opsi 
+- Method
+- Dan menambahkan Komentar pada setiap perubahan
+
 LIST MODIFIKASI PROGRAM :
 
 Class Pintu :
-- menjadikan Pintu sebagai subclass (inheritance) dari Item, karena beberapa atribut & method mirip
-- menghapus method setObjGameInfo karena sudah dibut di class Item
+- menjadikan Class Pintu sebagai subclass (inheritance) dari Class Item, karena beberapa atribut & method mirip
+- menghapus method setObjGameInfo karena sudah dibuat di class Item
 - menjadikan method getAksi dan prosesAksi sebagai override karena nama method sama, namun intruksi didalamnya berbeda dengan superclass nya
 
 Class Item :
-- mengganti hak akses variabel objGameInfo dan arrAksi dari private menjadi protected, agar dapat digunakan oleh superclass
+- mengganti hak akses variabel objGameInfo dan arrAksi dari private menjadi protected, agar dapat digunakan oleh subclass
 - constructor Item dibuat overloading, agar subclass dapat membuat constructor tanpa parameter
 
 Class Ruangan :
